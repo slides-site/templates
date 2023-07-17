@@ -1,0 +1,126 @@
+/* POLLS */
+.polls.social .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 10dvh;*/
+}
+
+.polls.social .content {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    gap: 1rem;
+}
+
+
+.polls.social .poll-container {
+    max-width: 20rem;
+    border-radius: 0.75rem;
+    background-color: rgb(var(--color-white));
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.polls.social .poll-container .question-container {
+    background-color: #252526;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-wrap: balance;
+}
+
+.polls.social .answers-container {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 0.5rem;
+}
+
+.polls.social .answer {
+    display: flex;
+    padding: 0.7rem 1rem;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    background-color: rgb(var(--color-white));
+    border-radius: 3.125rem;
+    border: 1px solid #D0D0D0;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+.polls.social .hashtag {
+    /*position: relative;*/
+    border-radius: 0.5rem;
+    background: #FFF;
+    display: inline-flex;
+    padding: 0.3125rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1875rem;
+    color: #000;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2.2rem;
+}
+
+.polls.social .hashtag:before {
+    content: "#";
+    position: relative;
+    color: rgb(var(--color-primary-500));
+    font-weight: 200;
+}
+
+.polls.social .hashtag.invisible:before {
+    display: none;
+}
+
+.polls.social .answer input {
+    border: none;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    padding-left: 0;
+}
+
+.polls.social .answer span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.375rem;
+    aspect-ratio: 1/1;
+    color: #000;
+}
+
+.polls.social .answer span.letter {
+    border-radius: 6.25rem;
+    border: 1.5px solid #000;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+}
+
+.polls.social .answer span.mail {
+    border: none;
+    border-radius: unset;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17" fill="none"><path d="M0.5 2.5C0.5 1.39543 1.39543 0.5 2.5 0.5H18.5C19.6046 0.5 20.5 1.39543 20.5 2.5V14.5C20.5 15.6046 19.6046 16.5 18.5 16.5H2.5C1.39543 16.5 0.5 15.6046 0.5 14.5V2.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/><path d="M1.5 1.5L7.84255 7.1378C9.3581 8.485 11.6419 8.485 13.1575 7.1378L19.5 1.5" stroke="black" stroke-linejoin="round"/></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+}

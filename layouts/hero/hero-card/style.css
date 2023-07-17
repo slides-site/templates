@@ -1,0 +1,29 @@
+/* SPECIAL */
+.hero.hero-card .media {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+}
+
+.hero.hero-card .content {
+    padding: 3rem;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.hero.hero-card .card {
+    max-width: 40rem;
+    min-width: 22rem;
+}
+
+@media (min-width: 780px) {
+    .hero.hero-card .content {
+        align-items: start;
+    }
+}
