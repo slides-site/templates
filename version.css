@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block');
+html {
+    font-family: 'Poppins', sans-serif;
+}
+h1 { font-family: 'Poppins', sans-serif; }
+h2 { font-family: 'Poppins', sans-serif; }
+h3 { font-family: 'Poppins', sans-serif; }
+h4 { font-family: 'Poppins', sans-serif; }
+h5 { font-family: 'Poppins', sans-serif; }
+h6 { font-family: 'Poppins', sans-serif; }
+
+:root {
+    --color-primary-50: 241 235 255;
+    --color-primary-100: 230 220 255;
+    --color-primary-200: 206 184 254;
+    --color-primary-300: 178 144 254;
+    --color-primary-400: 153 109 253;
+    --color-primary-500: 128 73 253;
+    --color-primary-600: 83 8 252;
+    --color-primary-700: 60 2 192;
+    --color-primary-800: 41 1 131;
+    --color-primary-900: 21 1 66;
+    --color-primary-950: 9 0 30;
+    --color-secondary-50: 254 236 250;
+    --color-secondary-100: 252 212 243;
+    --color-secondary-200: 249 174 233;
+    --color-secondary-300: 247 131 221;
+    --color-secondary-400: 244 93 211;
+    --color-secondary-500: 241 50 199;
+    --color-secondary-600: 220 15 175;
+    --color-secondary-700: 162 11 129;
+    --color-secondary-800: 110 7 87;
+    --color-secondary-900: 53 4 42;
+    --color-secondary-950: 29 2 23;
+    --color-neutral-50: 239 238 241;
+    --color-neutral-100: 226 225 229;
+    --color-neutral-200: 197 194 203;
+    --color-neutral-300: 166 161 175;
+    --color-neutral-400: 137 131 149;
+    --color-neutral-500: 109 103 121;
+    --color-neutral-600: 87 82 96;
+    --color-neutral-700: 65 61 72;
+    --color-neutral-800: 45 42 50;
+    --color-neutral-900: 22 21 25;
+    --color-neutral-950: 10 9 11;
+    --color-danger-50: 255 236 235;
+    --color-danger-100: 254 222 220;
+    --color-danger-200: 253 185 180;
+    --color-danger-300: 253 152 145;
+    --color-danger-400: 252 119 110;
+    --color-danger-500: 251 83 72;
+    --color-danger-600: 250 25 10;
+    --color-danger-700: 190 16 4;
+    --color-danger-800: 125 10 3;
+    --color-danger-900: 65 5 1;
+    --color-danger-950: 30 2 1;
+    --color-information-50: 235 236 255;
+    --color-information-100: 220 221 254;
+    --color-information-200: 180 183 253;
+    --color-information-300: 145 149 253;
+    --color-information-400: 110 116 252;
+    --color-information-500: 72 79 251;
+    --color-information-600: 10 20 250;
+    --color-information-700: 4 11 190;
+    --color-information-800: 3 7 125;
+    --color-information-900: 1 4 65;
+    --color-information-950: 1 2 30;
+    --color-success-50: 235 255 243;
+    --color-success-100: 220 254 234;
+    --color-success-200: 180 253 210;
+    --color-success-300: 145 253 188;
+    --color-success-400: 110 252 167;
+    --color-success-500: 72 251 144;
+    --color-success-600: 10 250 107;
+    --color-success-700: 4 190 79;
+    --color-success-800: 3 125 52;
+    --color-success-900: 1 65 27;
+    --color-success-950: 1 30 12;
+    --color-warning-50: 255 253 235;
+    --color-warning-100: 254 251 220;
+    --color-warning-200: 253 246 180;
+    --color-warning-300: 253 242 145;
+    --color-warning-400: 252 238 110;
+    --color-warning-500: 251 233 72;
+    --color-warning-600: 250 226 10;
+    --color-warning-700: 190 171 4;
+    --color-warning-800: 125 113 3;
+    --color-warning-900: 65 59 1;
+    --color-warning-950: 30 27 1;
+    --color-white: 255 255 255;
+    --color-black: 0 0 0;
+}
+

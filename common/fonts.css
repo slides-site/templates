@@ -1,20 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block');
-html {
-    font-family: 'Poppins', sans-serif;
-}
-h1 { font-family: 'Poppins', sans-serif; }
-h2 { font-family: 'Poppins', sans-serif; }
-h3 { font-family: 'Poppins', sans-serif; }
-h4 { font-family: 'Poppins', sans-serif; }
-h5 { font-family: 'Poppins', sans-serif; }
-h6 { font-family: 'Poppins', sans-serif; }
 
 :root {
     --font-scale-smail-desktop: 0.9;
 }
-
-
 
 .text-xs {
     font-size: 0.75rem; /* 12px */
