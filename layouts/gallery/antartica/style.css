@@ -178,6 +178,7 @@
         flex-direction: row;
         align-items: center;
         align-self: end;
+        overflow: hidden;
     }
 
     .slide-gallery.antartica-gallery .gallery-scroll {
