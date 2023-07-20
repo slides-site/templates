@@ -65,6 +65,7 @@
     -webkit-box-sizing: unset; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: unset;    /* Firefox, other Gecko */
     box-sizing: unset;         /* Opera/IE 8+ */
+    overflow: hidden;
 }
 
 .slide-gallery.antartica-gallery .gallery-container::-webkit-scrollbar {
@@ -75,7 +76,8 @@
     width: 100%;
     align-self: start;
     height: 4rem;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
     padding-bottom: 0.2rem;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
