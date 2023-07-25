@@ -1,0 +1,76 @@
+
+.highlight-gradient-p400-p600 {
+    font-weight: 500;
+    background: rgb(var(--color-primary-400));
+    background: linear-gradient(45deg, rgb(var(--color-primary-400)) 0%, rgb(var(--color-primary-600)) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.highlight-gradient-p600-p400 {
+    font-weight: 500;
+    background: rgb(var(--color-primary-400));
+    background: linear-gradient(45deg, rgb(var(--color-primary-600)) 0%, rgb(var(--color-primary-400)) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.highlight-underline {
+    background-repeat: no-repeat;
+    background-image: url('data:image/svg+xml,<svg width="144" height="7" viewBox="0 0 144 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.8" d="M1.10628 2.18961C41.4394 1.01475 126.37 -0.569918 143.428 2.49028C95.9793 2.70292 1.06605 3.78531 0.999778 6.41377C47.083 5.54053 140.068 4.19042 143.345 5.77584" stroke="%23CEB8FE"/></svg>');
+    background-position: bottom right;
+    background-size: 50%;
+}
+
+.highlight-background {
+    border-radius: 0.1rem;
+    padding: 0.05rem 0.1rem;
+    background-color: rgb(var(--color-primary-200));
+}
+
+.highlight-border-blur {
+
+}
+
+.button {
+    color: rgb(var(--color-white));
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    background: linear-gradient(180deg, rgb(var(--color-primary-400)) 0%, rgb(var(--color-primary-500)) 100%);
+    box-shadow: 0 4px 20px 0 rgb(var(--color-primary-400));
+    transition: all 350ms;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.button:focus {
+    transform: scale(0.9);
+    opacity: 1;
+}
+
+.link-button {
+    color: rgb(var(--color-white));
+    background-color: rgb(var(--color-primary-500));
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 12px 0 rgba(7, 1, 28, 0.15);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 400;
+    overflow: visible;
+}
+
+@media (min-width: 780px) {
+    .d-button-light {
+
+    }
+}
+
