@@ -126,7 +126,7 @@
     }
 }
 
-.features-slides .panel {
+.features-slides .background.clip .panel {
     overflow: hidden;
     position: absolute;
     left: 0;
@@ -137,4 +137,21 @@
     clip-path: url(#bottom-clip);
     background: linear-gradient(180deg, #9174F5 0%, #7654F4 100%);
     opacity: 1.0;
+}
+
+@media (min-width: 780px) {
+
+    .features-slides .background.clip .panel {
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: unset;
+        height: unset;
+        width: 40vw;
+        -webkit-clip-path: url(#left-clip);
+        clip-path: url(#left-clip);
+        opacity: 1.0;
+    }
 }
