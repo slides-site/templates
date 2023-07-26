@@ -25,62 +25,64 @@
           <p class="text-xl text-white font-medium d-text-2xl">by converting your:
           </p>
         </div>
-        <div class="stack-x features">
-          <div class="item active">
-            <button class="feature-button" type="button">
-              <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
-                <path d="M3.07861 12.2018L15.6751 12.2" stroke="currentColor"/>
-                <path d="M8.4748 2.30095C7.11648 4.70095 5.21483 10.9409 8.4748 16.7009" stroke="currentColor"/>
-                <circle cx="9.37603" cy="9.49917" r="7.2" stroke="currentColor"/>
-                <path d="M3.07495 6.8H15.675" stroke="currentColor"/>
-                <path d="M10.274 2.30095C11.6323 4.70095 13.5339 10.9409 10.274 16.7009" stroke="currentColor"/>
-              </svg>
-              Website
-            </button>
-            <div class="progress-desktop">
-              <svg viewBox="0 0 140 105" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <linearGradient
-                          id="gradient"
-                          x1="-4.5"
-                          y1="6"
-                          x2="137"
-                          y2="32"
-                          gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="#CA35AA" />
-                    <stop offset="1" stop-color="#FEECFA" />
-                  </linearGradient>
-                </defs>
-                <path
-                        variants={outlineVariants}
-                        d="M24 1.75H116C128.288 1.75 138.25 11.7117 138.25 24V81C138.25 93.2883 128.288 103.25 116 103.25H24C11.7117 103.25 1.75 93.2883 1.75 81V24C1.75 11.7117 11.7117 1.75 24 1.75Z"
-                        stroke-width="4"
-                        stroke="url(#gradient)"
-                        fill="none"
-                />
-              </svg>
+        <div class="features-container">
+          <div class="stack-x features x-scroll-snap">
+            <div class="item active">
+              <button class="feature-button" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                  <path d="M3.07861 12.2018L15.6751 12.2" stroke="currentColor"/>
+                  <path d="M8.4748 2.30095C7.11648 4.70095 5.21483 10.9409 8.4748 16.7009" stroke="currentColor"/>
+                  <circle cx="9.37603" cy="9.49917" r="7.2" stroke="currentColor"/>
+                  <path d="M3.07495 6.8H15.675" stroke="currentColor"/>
+                  <path d="M10.274 2.30095C11.6323 4.70095 13.5339 10.9409 10.274 16.7009" stroke="currentColor"/>
+                </svg>
+                Website
+              </button>
+              <div class="progress-desktop">
+                <svg viewBox="0 0 140 105" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient
+                            id="gradient"
+                            x1="-4.5"
+                            y1="6"
+                            x2="137"
+                            y2="32"
+                            gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#CA35AA" />
+                      <stop offset="1" stop-color="#FEECFA" />
+                    </linearGradient>
+                  </defs>
+                  <path
+                          variants={outlineVariants}
+                          d="M24 1.75H116C128.288 1.75 138.25 11.7117 138.25 24V81C138.25 93.2883 128.288 103.25 116 103.25H24C11.7117 103.25 1.75 93.2883 1.75 81V24C1.75 11.7117 11.7117 1.75 24 1.75Z"
+                          stroke-width="4"
+                          stroke="url(#gradient)"
+                          fill="none"
+                  />
+                </svg>
+              </div>
             </div>
-          </div>
-          <div class="item">
-            <button class="feature-button" type="button">
-              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
-                <path d="M8.69971 11.6953V17.6953" stroke="currentColor"/>
-                <path d="M8.69971 0.445312V7.19531" stroke="currentColor"/>
-                <path d="M0.484131 7.57045H16.9139" stroke="currentColor"/>
-                <path d="M2.89062 12.8788L14.5082 2.25899" stroke="currentColor"/>
-                <path d="M2.89062 2.26006L14.5082 12.8799" stroke="currentColor"/>
-              </svg>
-              Linktree
-            </button>
-          </div>
-          <div class="item">
-            <button class="feature-button" type="button">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16" fill="none">
-                <path d="M1 10.9278C1 11.5245 1.23762 12.0968 1.66058 12.5188C2.08354 12.9407 2.6572 13.1778 3.25535 13.1778C3.85351 13.1778 4.42717 12.9407 4.85013 12.5188C5.27309 12.0968 5.51071 11.5245 5.51071 10.9278C5.51071 10.331 5.27309 9.75875 4.85013 9.33679C4.42717 8.91483 3.85351 8.67778 3.25535 8.67778C2.6572 8.67778 2.08354 8.91483 1.66058 9.33679C1.23762 9.75875 1 10.331 1 10.9278ZM9.26963 13.1778C9.26963 13.5756 9.42804 13.9571 9.71001 14.2384C9.99199 14.5197 10.3744 14.6778 10.7732 14.6778C11.172 14.6778 11.5544 14.5197 11.8364 14.2384C12.1184 13.9571 12.2768 13.5756 12.2768 13.1778C12.2768 12.78 12.1184 12.3984 11.8364 12.1171C11.5544 11.8358 11.172 11.6778 10.7732 11.6778C10.3744 11.6778 9.99199 11.8358 9.71001 12.1171C9.42804 12.3984 9.26963 12.78 9.26963 13.1778ZM6.26249 4.55278C6.26249 5.44789 6.61892 6.30633 7.25336 6.93927C7.8878 7.5722 8.74829 7.92778 9.64552 7.92778C10.5428 7.92778 11.4032 7.5722 12.0377 6.93927C12.6721 6.30633 13.0286 5.44789 13.0286 4.55278C13.0286 3.65767 12.6721 2.79923 12.0377 2.16629C11.4032 1.53336 10.5428 1.17778 9.64552 1.17778C8.74829 1.17778 7.8878 1.53336 7.25336 2.16629C6.61892 2.79923 6.26249 3.65767 6.26249 4.55278Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-              Nothing
-            </button>
+            <div class="item">
+              <button class="feature-button" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
+                  <path d="M8.69971 11.6953V17.6953" stroke="currentColor"/>
+                  <path d="M8.69971 0.445312V7.19531" stroke="currentColor"/>
+                  <path d="M0.484131 7.57045H16.9139" stroke="currentColor"/>
+                  <path d="M2.89062 12.8788L14.5082 2.25899" stroke="currentColor"/>
+                  <path d="M2.89062 2.26006L14.5082 12.8799" stroke="currentColor"/>
+                </svg>
+                Linktree
+              </button>
+            </div>
+            <div class="item">
+              <button class="feature-button" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16" fill="none">
+                  <path d="M1 10.9278C1 11.5245 1.23762 12.0968 1.66058 12.5188C2.08354 12.9407 2.6572 13.1778 3.25535 13.1778C3.85351 13.1778 4.42717 12.9407 4.85013 12.5188C5.27309 12.0968 5.51071 11.5245 5.51071 10.9278C5.51071 10.331 5.27309 9.75875 4.85013 9.33679C4.42717 8.91483 3.85351 8.67778 3.25535 8.67778C2.6572 8.67778 2.08354 8.91483 1.66058 9.33679C1.23762 9.75875 1 10.331 1 10.9278ZM9.26963 13.1778C9.26963 13.5756 9.42804 13.9571 9.71001 14.2384C9.99199 14.5197 10.3744 14.6778 10.7732 14.6778C11.172 14.6778 11.5544 14.5197 11.8364 14.2384C12.1184 13.9571 12.2768 13.5756 12.2768 13.1778C12.2768 12.78 12.1184 12.3984 11.8364 12.1171C11.5544 11.8358 11.172 11.6778 10.7732 11.6778C10.3744 11.6778 9.99199 11.8358 9.71001 12.1171C9.42804 12.3984 9.26963 12.78 9.26963 13.1778ZM6.26249 4.55278C6.26249 5.44789 6.61892 6.30633 7.25336 6.93927C7.8878 7.5722 8.74829 7.92778 9.64552 7.92778C10.5428 7.92778 11.4032 7.5722 12.0377 6.93927C12.6721 6.30633 13.0286 5.44789 13.0286 4.55278C13.0286 3.65767 12.6721 2.79923 12.0377 2.16629C11.4032 1.53336 10.5428 1.17778 9.64552 1.17778C8.74829 1.17778 7.8878 1.53336 7.25336 2.16629C6.61892 2.79923 6.26249 3.65767 6.26249 4.55278Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Nothing
+              </button>
+            </div>
           </div>
         </div>
       </div>

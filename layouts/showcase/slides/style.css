@@ -6,7 +6,7 @@
     right: 0;
     top: 0;
     bottom: unset;
-    height: 30dvh;
+    height: 32dvh;
     -webkit-clip-path: url(#mobile);
     clip-path: url(#mobile);
     background: linear-gradient(180deg, #9174F5 0%, #7654F4 100%);
@@ -16,12 +16,24 @@
 .slides-showcase {
     height: 100%;
 }
+.slides-showcase .features-container {
+    width: 100%;
+}
+
+.slides-showcase .features::-webkit-scrollbar {
+    display: none;
+}
+
 .slides-showcase .features {
     width: 100%;
     gap: 1rem;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     overflow: scroll;
+    padding-left: 50vw;
+    padding-right: 50vw;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 .slides-showcase .feature-button {
@@ -38,6 +50,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.25rem;
+    color: black;
 }
 
 .slides-showcase .item.active * {
@@ -50,7 +63,7 @@
 
 .slides-showcase .header {
     gap: 1.5rem;
-    padding-top: 2rem;
+    padding-top: 6rem;
 }
 
 .slides-showcase .animation-container {
@@ -71,7 +84,7 @@
     justify-content: space-evenly;
     flex-wrap: nowrap;
     width: 100%;
-    height: 90%;
+    height: 82%;
     gap: 1rem;
 }
 
@@ -143,6 +156,8 @@
         align-items: flex-start;
         align-content: stretch;
         overflow: visible;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .slides-showcase .features .item {
