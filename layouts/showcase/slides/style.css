@@ -1,5 +1,5 @@
 
-.background.clip .panel {
+.slides-showcase .background.clip .panel {
     overflow: hidden;
     position: absolute;
     left: 0;
@@ -121,7 +121,7 @@
 }
 
 @media (min-width: 780px){
-    .background.clip .panel {
+    .slides-showcase .background.clip .panel {
         overflow: hidden;
         position: absolute;
         left: 0;

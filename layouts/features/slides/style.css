@@ -125,3 +125,16 @@
         padding: 2.5rem;
     }
 }
+
+.features-slides .panel {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10dvh;
+    -webkit-clip-path: url(#bottom-clip);
+    clip-path: url(#bottom-clip);
+    background: linear-gradient(180deg, #9174F5 0%, #7654F4 100%);
+    opacity: 1.0;
+}

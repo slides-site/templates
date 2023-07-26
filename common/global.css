@@ -140,3 +140,12 @@ h3, .h3 {
 .x-scroll-snap div {
     scroll-snap-align: center;
 }
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
