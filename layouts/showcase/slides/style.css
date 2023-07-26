@@ -1,0 +1,192 @@
+
+.background.clip .panel {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: unset;
+    height: 30dvh;
+    -webkit-clip-path: url(#mobile);
+    clip-path: url(#mobile);
+    background: linear-gradient(180deg, #9174F5 0%, #7654F4 100%);
+    opacity: 1.0;
+}
+
+.slides-showcase {
+    height: 100%;
+}
+.slides-showcase .features {
+    width: 100%;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.slides-showcase .feature-button {
+    font-size: 0.875rem;
+    padding: 0.6rem 0;
+    width: 8rem;
+    border-color: transparent;
+    border-radius: 1.5rem;
+    background: #FFF;
+    box-shadow: 0 4px 20px 0 rgba(152, 108, 253, 0.15);
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.slides-showcase .item.active * {
+    color: rgb(var(--color-primary-500));
+}
+
+.slides-showcase .titles {
+    gap: 0.5rem;
+}
+
+.slides-showcase .header {
+    gap: 1.5rem;
+    padding-top: 2rem;
+}
+
+.slides-showcase .animation-container {
+    position: relative;
+    width: 100%;
+    max-height: 60%;
+}
+
+.slides-showcase .animation {
+    width: 100%;
+    flex: 1;
+    aspect-ratio: 1/1;
+}
+
+.slides-showcase .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 90%;
+    gap: 1rem;
+}
+
+.slides-showcase .progress-desktop {
+    position: absolute;
+    inset: 0;
+}
+
+.slides-showcase .item .progress-desktop {
+    display: none;
+}
+
+.slides-showcase .progress {
+    height: 0.25rem;
+    width: 6rem;
+    border-radius: 3rem;
+    overflow: hidden;
+}
+
+.slides-showcase .progress .bar {
+    height: 100%;
+    width: 10%;
+}
+
+.slides-showcase .progress-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (min-width: 780px){
+    .background.clip .panel {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: unset;
+        top: 0;
+        bottom: 0;
+        height: unset;
+        width: 50vw;
+        -webkit-clip-path: url(#dektop);
+        clip-path: url(#desktop);
+        background: linear-gradient(180deg, #9174F5 0%, #7654F4 100%);
+        opacity: 1.0;
+    }
+
+    .slides-showcase .content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        height: 100%;
+    }
+    .slides-showcase .animation-container {
+        grid-row: span 2;
+        max-height: unset;
+        height: 100%;
+    }
+    .slides-showcase .header {
+        justify-content: end;
+        width: 90%;
+    }
+    .slides-showcase .features {
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: stretch;
+        overflow: visible;
+    }
+
+    .slides-showcase .features .item {
+        width: 100%;
+        position: relative;
+    }
+
+    .slides-showcase .item.active .feature-button * {
+        color: white;
+    }
+
+    .slides-showcase .item.active .progress-desktop {
+        display: block;
+    }
+
+    .slides-showcase .features .item .feature-button {
+        width: 100%;
+        aspect-ratio: 4/3;
+        color: white;
+        background-color: transparent;
+        border-radius: 1.7rem;
+        border: 3px solid #FFF;
+        box-shadow: 0 4px 20px 0 rgba(152, 108, 253, 0.15);
+    }
+
+    .slides-showcase .features .item.active .feature-button * {
+        color: rgb(var(--color-primary-500));
+    }
+
+    .slides-showcase .features .item.active .feature-button {
+        color: rgb(var(--color-primary-500));
+        background-color: white;
+    }
+
+    .feature-button {
+        position: relative;
+    }
+
+    .slides-showcase .button-container {
+        width: 90%;
+        padding-top: 4rem;
+    }
+
+    .slides-showcase .animation {
+        width: 100%;
+    }
+}

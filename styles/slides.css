@@ -29,7 +29,27 @@
 }
 
 .highlight-border-blur {
+    position: relative;
+    padding: 0 0.4rem;
+}
 
+.highlight-border-blur::after {
+    content: ' ';
+    position: absolute;
+    inset: -1px;
+    border-radius: 0.3rem;
+    border: 3px solid #FFF;
+    opacity: 0.2;
+    filter: blur(1px);
+}
+
+.highlight-border-blur::before {
+    content: ' ';
+    position: absolute;
+    inset: 0;
+    border-radius: 0.3rem;
+    border: 1px solid #FFF;
+    opacity: 1;
 }
 
 .button {
@@ -70,7 +90,62 @@
 
 @media (min-width: 780px) {
     .d-button-light {
-
+        color: rgb(var(--color-primary-500));
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 2rem;
+        background: rgb(var(--color-white));
+        box-shadow: 0 4px 20px 0 rgb(var(--color-primary-400));
     }
 }
 
+
+
+.background.clip .panel .dots {
+    width: 100%;
+    height: 100%;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none"><rect width="2" height="2" fill="black"/></svg>');
+    opacity: 0.2;
+}
+
+.background.clip .panel::after {
+    content: " ";
+    position: absolute;
+    inset: 0;
+    border-radius: 52rem;
+    opacity: 0.15;
+    background: linear-gradient(137deg, #C2D5FF 1.10%, #F3F5FE 46.09%, rgba(152, 108, 253, 0.50) 94.14%);
+    filter: blur(153.54330444335938px);
+}
+
+.background.clip .panel {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10dvh;
+    -webkit-clip-path: url(#bottom-clip);
+    clip-path: url(#bottom-clip);
+    background: linear-gradient(180deg, #9174F5 0%, #7654F4 100%);
+    opacity: 1.0;
+}
+
+@media (min-width: 780px) {
+
+    .background.clip .panel {
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: unset;
+        height: unset;
+        width: 40vw;
+        -webkit-clip-path: url(#left-clip);
+        clip-path: url(#left-clip);
+        opacity: 1.0;
+    }
+}
