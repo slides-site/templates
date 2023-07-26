@@ -64,15 +64,16 @@
     transition: all 350ms;
 }
 
-.button-light {
+.button.light {
     color: rgb(var(--color-primary-500));
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 2rem;
     background: rgb(var(--color-white));
     box-shadow: 0 4px 20px 0 rgb(var(--color-primary-400));
+}
+
+.button.dark {
+    color: rgb(var(--color-white));
+    background: rgb(var(--color-black));
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.40);
 }
 
 .button:hover {
@@ -100,15 +101,15 @@
 }
 
 @media (min-width: 780px) {
-    .d-button-light {
+    .button.d-light {
         color: rgb(var(--color-primary-500));
-        font-size: 1rem;
-        font-weight: 500;
-        padding: 1rem 2rem;
-        border: none;
-        border-radius: 2rem;
         background: rgb(var(--color-white));
         box-shadow: 0 4px 20px 0 rgb(var(--color-primary-400));
+    }
+    .button.d-dark {
+        color: rgb(var(--color-white));
+        background: rgb(var(--color-black));
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.40);
     }
 }
 
