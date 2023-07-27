@@ -29,7 +29,7 @@
 
 .features-slides .item {
     min-width: 100%;
-    padding: 2rem;
+    padding: 2rem 2rem 1rem 2rem;
     gap: 1rem;
 }
 
