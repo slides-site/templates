@@ -130,3 +130,14 @@
     background: linear-gradient(137deg, #C2D5FF 1.10%, #F3F5FE 46.09%, rgba(152, 108, 253, 0.50) 94.14%);
     filter: blur(153.54330444335938px);
 }
+
+.index {
+    background-color: rgb(var(--color-primary-200));
+    opacity: 1;
+}
+
+.index.active {
+    width: 1rem;
+    background-color: rgb(var(--color-primary-500));
+    opacity: 1;
+}

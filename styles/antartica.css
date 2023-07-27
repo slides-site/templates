@@ -69,6 +69,11 @@
 /*    transform: scale(0.95);*/
 /*}*/
 
+.index {
+    background-color: #FFF;
+    opacity: 0.5;
+}
+
 .index.active {
     width: 0.5rem;
 }
