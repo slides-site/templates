@@ -56,19 +56,22 @@
     max-height: 100%;
     display: flex;
     flex-direction: row;
-    border-radius: 1rem;
     overflow: hidden;
     position: relative;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
 }
 
 .features-slides .illustration img {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     position: absolute;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+    object-fit: contain;
+    max-height: 100%;
+    border-radius: 1rem;
 }
-
-
 
 .features-slides .background {
     /*background-color: mediumvioletred;*/
