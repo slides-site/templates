@@ -147,7 +147,7 @@
         font-weight: 500;
         border: 4px solid rgb(var(--color-primary-500));
         border-radius: 1.25rem;
-        /*padding: 2.5rem;*/
+        padding: 2.5rem;
     }
 
     .features-slides .card {
