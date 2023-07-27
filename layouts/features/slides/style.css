@@ -53,9 +53,18 @@
 
 .features-slides .illustration {
     width: 100%;
-    background-color: black;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    overflow: hidden;
 }
+
+.features-slides .illustration img {
+    object-fit: cover;
+}
+
+
 
 .features-slides .background {
     /*background-color: mediumvioletred;*/
