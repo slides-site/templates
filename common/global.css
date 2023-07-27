@@ -213,3 +213,16 @@ h3, .h3 {
     mask-repeat: no-repeat;
     mask-position: center center;
 }
+
+.button {
+    text-decoration: none;
+    text-underline: none;
+}
+
+.gap-1 {
+    gap: 1rem
+}
+
+.gap-05 {
+    gap: 0.5rem
+}
