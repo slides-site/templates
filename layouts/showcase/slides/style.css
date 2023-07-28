@@ -162,6 +162,11 @@
         height: 100%;
     }
 
+    .slides-showcase .container {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
     .slides-showcase .animation-container {
         grid-row: span 2;
         max-height: unset;
