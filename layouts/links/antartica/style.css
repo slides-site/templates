@@ -1,0 +1,56 @@
+/* LINKS */
+
+.links.slides .container {
+    width: 90%;
+    height: 80%;
+    overflow: visible;
+    max-width: 1000px;
+}
+
+.links.slides .content {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.links.slides .social {
+    justify-content: center;
+    gap: 1rem;
+}
+
+.links.slides .social .social-button {
+    --social-button-size: 2.5rem;
+    height: var(--social-button-size);
+    width: var(--social-button-size);
+    text-transform: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(var(--color-primary-100));
+    border-radius: 1.25rem;
+}
+
+.links.slides .header {
+    gap: 0.875rem;
+}
+
+.links.slides .profile-photo {
+    width: 3rem;
+    aspect-ratio: 1/1;
+}
+
+.links.slides .buttons {
+    gap: 0.62rem;
+    overflow: visible;
+}
+
+@media (min-width: 780px) {
+    .links.slides.container {
+        max-width: 40rem;
+        height: 70%;
+    }
+
+    .links.slides .profile-photo {
+        width: 4rem;
+    }
+}
