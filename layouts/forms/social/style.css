@@ -129,6 +129,12 @@
     right: 0.4rem;
     height: 1.8rem;
     width: unset !important;
+    transition: 0.15s all ease;
+    opacity: 0;
+}
+
+.polls.social .answer span.send-icon.active {
+    opacity: 1;
 }
 
 .polls.social .answer span.mail {
