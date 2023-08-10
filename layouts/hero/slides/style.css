@@ -27,6 +27,11 @@
     gap: 0.150rem;
 }
 
+.hero-slides .titles .typer {
+    min-width: 25ch;
+    text-align: left;
+}
+
 .hero-slides .titles .logo {
     padding-bottom: 0.5rem;
     width: 11rem;
