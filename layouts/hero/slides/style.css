@@ -9,14 +9,14 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 5%;
-    padding-bottom: 8%;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 }
 
 .hero-slides .content {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: nowrap;
     width: 100%;
     height: 100%;
@@ -24,7 +24,16 @@
 
 .hero-slides .titles {
     justify-content: end;
-    gap: 0.250rem;
+    gap: 0.150rem;
+}
+
+.hero-slides .titles .logo {
+    padding-bottom: 0.5rem;
+    width: 11rem;
+}
+
+.hero-slides .titles .logo svg {
+    width: 100%;
 }
 
 .hero-slides .titles h2 span {
