@@ -58,6 +58,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.25rem;
+    position: relative;
 }
 
 .polls.social .hashtag {
@@ -117,13 +118,17 @@
     text-transform: uppercase;
 }
 
-.answer span.send-icon {
+.polls.social .answer span.send-icon {
     border: none;
     border-radius: unset;
     background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none"><path d="M1.75 15.5C1.75 23.0939 7.90608 29.25 15.5 29.25C23.0939 29.25 29.25 23.0939 29.25 15.5C29.25 7.90608 23.0939 1.75 15.5 1.75C7.90609 1.75 1.75 7.90608 1.75 15.5Z" fill="%23252526" stroke="%23252526" stroke-width="2.5"/><path d="M12.375 21.75L18.625 15.5L12.375 9.25" fill="%23252526"/><path d="M12.375 21.75L18.625 15.5L12.375 9.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    position: absolute;
+    right: 0.4rem;
+    height: 1.8rem;
+    width: unset !important;
 }
 
 .polls.social .answer span.mail {
