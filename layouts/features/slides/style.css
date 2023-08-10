@@ -7,11 +7,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: nowrap;
     width: 100%;
     height: 90%;
-    gap: 1.5rem;
+    padding-top: 3rem;
 }
 
 .features-slides .carrousel {
@@ -24,7 +24,7 @@
 
 .features-slides .carrousel-container {
     width: 100%;
-    height: 70%;
+    height: 75%;
     display: flex;
     flex-direction: column;
 }
@@ -118,6 +118,7 @@
     }
 
     .features-slides .content {
+        padding-top: unset;
         justify-content: center;
         position: relative;
         height: 100%;
