@@ -81,9 +81,9 @@
     padding-bottom: 0.2rem;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-    -webkit-box-sizing: unset; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: unset;    /* Firefox, other Gecko */
-    box-sizing: unset;         /* Opera/IE 8+ */
+    /*-webkit-box-sizing: unset; !* Safari/Chrome, other WebKit *!*/
+    /*-moz-box-sizing: unset;    !* Firefox, other Gecko *!*/
+    /*box-sizing: unset;         !* Opera/IE 8+ *!*/
 }
 
 .slide-gallery.antartica-gallery .gallery-scroll::-webkit-scrollbar {
@@ -203,10 +203,9 @@
 
     .slide-gallery.antartica-gallery .item .item-detail {
         display: block;
-        /*flex: 0.6;*/
-        /*width: 16rem;*/
-        width: min-content;
         overflow: hidden;
+        max-width: 30ch;
+        width: max-content;
     }
 
     .slide-gallery.antartica-gallery .gallery-container .controls {
@@ -219,6 +218,7 @@
         overflow: hidden;
         border-radius: 0.25rem;
         align-self: center;
+        height: unset;
     }
 
 }

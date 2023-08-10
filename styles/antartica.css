@@ -77,3 +77,94 @@
 .index.active {
     width: 0.5rem;
 }
+
+
+.notion-app b{
+    color: #000
+}
+
+.notion-asset-caption, .notion-text {
+    color: #475467;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.notion-app h1 .notion-yellow_background,
+.notion-app h2 .notion-yellow_background,
+.notion-app h3 .notion-yellow_background {
+    background: linear-gradient(180deg,transparent 0,transparent 45%,rgb(var(--color-secondary-500)) 55%,rgb(var(--color-secondary-500)) 100%);
+    padding: 0 .2rem;
+}
+
+.notion-app h1,
+.notion-app h2,
+.notion-app h3 {
+    color: #000
+}
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    object-fit: fill !important;
+}
+
+.notion-callout, .notion-quote {
+    align-self: center;
+    width: 95%;
+    border: unset;
+    border: 3px solid #000;
+    background: rgb(var(--color-secondary-500));
+    box-shadow: 4px 4px 0 0 #000;
+
+    color: #000;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.8rem; /* 150% */
+
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 1rem;
+}
+
+.notion-callout {
+    background-color: rgb(var(--color-primary-500));;
+}
+
+.notion-quote:after {
+    content: unset;
+}
+
+.notion-quote:before {
+    content: unset;
+}
+
+.notion-page {
+    width: 90% !important;
+    max-width: 680px !important;
+}
+
+.initial-letter .notion-text:not(.notion-text ~ .notion-text)::first-letter {
+    line-break: auto;
+    line-height: 1em;
+    font-size: 3rem;
+    font-weight: 400;
+    overflow-wrap: normal;
+    float: left;
+    padding: 0.3rem 0.3rem 0 0;
+}
+
+
+.notion-app .notion-yellow_background {
+    background: linear-gradient(180deg,transparent 0,transparent 45%,rgb(var(--color-secondary-500)) 55%,rgb(var(--color-secondary-500)) 100%);
+    padding: 0 .2rem;
+    color: #000;
+}
+
+.notion-text {
+    line-height: 1.8rem !important;
+}
