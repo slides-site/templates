@@ -47,7 +47,7 @@
 
 .button, .link-button {
     display: flex;
-    padding: 0.75rem 2rem;
+    padding: 0.875rem 2rem;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
@@ -57,8 +57,12 @@
     text-decoration: none;
     color: rgb(var(--color-black));
     font-weight: 900;
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     transition: 0.15s all ease;
+}
+
+.link-button {
+    font-size: 1rem;
 }
 
 /*.button:hover {*/
@@ -76,6 +80,7 @@
 
 .index.active {
     width: 0.5rem;
+    opacity: 1.0;
 }
 
 
