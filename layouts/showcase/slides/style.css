@@ -6,7 +6,7 @@
     right: 0;
     top: 0;
     bottom: unset;
-    height: 35dvh;
+    height: 38dvh;
     -webkit-clip-path: url(#mobile);
     clip-path: url(#mobile);
     background: linear-gradient(180deg, #9174F5 0%, #7654F4 100%);
@@ -61,6 +61,7 @@
 
 .slides-showcase .item.active * {
     color: rgb(var(--color-primary-500));
+    font-weight: 600;
 }
 
 .slides-showcase .titles {
@@ -154,6 +155,10 @@
 }
 
 @media (min-width: 780px){
+    .slides-showcase .titles {
+        gap: 1rem;
+    }
+
     .slides-showcase .background.clip .panel {
         overflow: hidden;
         position: absolute;
@@ -214,12 +219,13 @@
 
     .slides-showcase .features .item .feature-button {
         width: 100%;
-        aspect-ratio: 4/3;
+        aspect-ratio: 8.75/6.56;
         color: white;
         background-color: transparent;
-        border-radius: 22%;
+        border-radius: 1.5rem;
         border: 3px solid #FFF;
         box-shadow: 0 4px 20px 0 rgba(152, 108, 253, 0.15);
+        font-size: 1.125rem;
     }
 
     .slides-showcase .features .item.active .feature-button * {
