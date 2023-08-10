@@ -65,20 +65,13 @@
     font-size: 1rem;
 }
 
-/*.button:hover {*/
-/*    transform: scale(1.05);*/
-/*}*/
-
-/*.button:active {*/
-/*    transform: scale(0.95);*/
-/*}*/
-
 .index {
-    background-color: #FFF;
+    background-color: rgb(var(--color-white));
     opacity: 0.5;
 }
 
 .index.active {
+    background-color: rgb(var(--color-white));
     width: 0.5rem;
     opacity: 1.0;
 }
