@@ -34,7 +34,7 @@
 }
 
 @media (min-width: 780px) {
-    .antartica-about .carrousel-item .card{
+    .about.about-antartica .carrousel-item .card{
         justify-content: start !important;
     }
 
