@@ -1,10 +1,10 @@
 /* LINKS */
 
 .links.slides .container {
-    width: 90%;
+    width: 90% !important;
     height: 80%;
     overflow: visible;
-    max-width: 600px;
+    max-width: 600px !important;
 }
 
 .links.slides .content {
