@@ -34,6 +34,9 @@
 }
 
 @media (min-width: 780px) {
+    .antartica-about .carrousel-item .card{
+        justify-content: start !important;
+    }
 
     .about.about-antartica .carrousel-index {
         display: none;
