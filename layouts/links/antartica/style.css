@@ -10,7 +10,8 @@
 .links.slides .content {
     display: flex;
     flex-direction: column;
-    gap: 3.5rem;
+    height: 100%;
+    justify-content: space-between;
 }
 
 .links.slides .social {
@@ -72,8 +73,10 @@
 }
 
 .links.slides .buttons {
-    gap: 1rem;
+    gap: 0.62rem;
     overflow: visible;
+    flex: 1;
+    justify-content: center;
 }
 
 @media (min-width: 780px) {
