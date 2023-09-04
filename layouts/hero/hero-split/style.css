@@ -27,18 +27,17 @@
 }
 .hero-split .heading {
     padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 0.5rem;
-    height: 82%;
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: end;
     position: relative;
 }
 .hero-split .footer {
-    padding-left: 5%;
-    padding-top: 0.5rem;
+    padding: 0.5rem 5%;
     gap: 1rem;
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -51,7 +50,7 @@
 }
 
 .hero.hero-split .content {
-    /*padding: 3rem 5%;*/
+    padding: 0 0 5rem 0;
     height: 100%;
     width: 100%;
     display: flex;
