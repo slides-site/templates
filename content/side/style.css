@@ -1,0 +1,119 @@
+.container-full.safe-area {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.container.safe-area {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.gap-3 {
+    gap: 3rem;
+}
+
+
+.container {
+    background-color: red;
+}
+
+.full-height {
+    height: 100dvh;
+    background-color: green;
+    position: absolute;
+    margin-top: -3rem;
+    margin-bottom: -5rem;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+}
+
+.main-content {
+    background-color: yellow;
+    position: relative;
+}
+
+.main-elements {
+    flex: 1;
+    background-color: blue;
+}
+
+.content.m-h-60 .main-content {
+    height: 60%;
+}
+
+.content.m-h-50 .main-content {
+    height: 50%;
+}
+
+.content.m-h-55 .main-content {
+    height: 55%;
+}
+
+@media (min-width: 780px) {
+    .d-gap-3 {
+        gap: 3rem;
+    }
+
+    .content {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main-content {
+        max-height: unset;
+        flex: unset;
+        height: 100%;
+    }
+
+    .d-w-60.content > div {
+        min-width: 40%;
+    }
+
+    .d-w-60 .main-content {
+        width: 60%;
+    }
+
+    .d-w-50.content > div {
+        min-width: 50%;
+    }
+
+    .d-w-50 .main-content {
+        width: 50%;
+    }
+
+    .d-w-55.content > div {
+        min-width: 45%;
+    }
+
+    .d-w-55 .main-content {
+        width: 55%;
+    }
+
+    .d-safe-left {
+        padding-left: 5%;
+        box-sizing: border-box;
+    }
+
+    .d-full-height {
+        height: 100dvh;
+        background-color: green;
+        position: absolute;
+        margin-top: -3rem;
+        margin-bottom: -5rem;
+        width: 100%;
+    }
+    .main-elements {
+        max-height: 60dvh;
+    }
+
+    .content.d-h-100 .main-content {
+        height: 100%;
+    }
+}

@@ -1,0 +1,72 @@
+/* SPECIAL */
+.hero.hero-split .media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.hero.hero-split .media::after {
+    content: " ";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40%;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+.split-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.hero-split .heading {
+    padding-left: 5%;
+    padding-bottom: 0.5rem;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+}
+.hero-split .footer {
+    padding-left: 5%;
+    padding-top: 0.5rem;
+    gap: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+}
+
+.heading h1 {
+    z-index: 10;
+}
+
+.hero.hero-split .content {
+    /*padding: 3rem 5%;*/
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.hero.hero-split .card {
+    max-width: 40rem;
+    min-width: 22rem;
+}
+
+@media (min-width: 780px) {
+    .hero.hero-split .content {
+        align-items: start;
+    }
+}

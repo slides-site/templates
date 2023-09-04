@@ -1,0 +1,279 @@
+/*GLOBAL STYLE*/
+
+.carrousel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrousel {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: visible;
+    justify-content: flex-start;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.carrousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carrousel-item .card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    align-items: start;
+    justify-content: start;
+}
+
+.card {
+    background-color: rgb(var(--color-white));
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+    box-shadow: 8px 8px 0 0 #000;
+    align-content: start;
+    align-items: start;
+}
+
+.highlight-normal {
+    background: linear-gradient(180deg, transparent 0%, transparent 45%, rgb(var(--color-warning-500)) 45%, rgb(var(--color-warning-500)) 90%,transparent 90%, transparent 100%);
+    padding: 0 0.2rem;
+}
+
+.button, .link-button {
+    display: flex;
+    padding: 1.1rem 2.2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgb(var(--color-black));
+    text-decoration: none;
+    color: rgb(var(--color-white));
+    font-weight: 900;
+    font-size: 0.875rem;
+    transition: 0.15s all ease;
+}
+
+.link-button {
+    font-size: 1rem;
+}
+
+.index {
+    background-color: rgb(var(--color-white));
+    opacity: 0.5;
+}
+
+.index.active {
+    background-color: rgb(var(--color-white));
+    width: 0.5rem;
+    opacity: 1.0;
+}
+
+
+.notion-app b{
+    color: #000
+}
+
+.notion-asset-caption, .notion-text {
+    color: #475467;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.notion-app h1 .notion-yellow_background,
+.notion-app h2 .notion-yellow_background,
+.notion-app h3 .notion-yellow_background {
+    background: linear-gradient(180deg,transparent 0,transparent 45%,rgb(var(--color-warning-500)) 55%,rgb(var(--color-warning-500)) 100%);
+    padding: 0 .2rem;
+}
+
+.notion-app h1,
+.notion-app h2,
+.notion-app h3 {
+    color: #000
+}
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    object-fit: fill !important;
+}
+
+.notion-callout, .notion-quote {
+    align-self: center;
+    width: 95%;
+    border: unset;
+    border: 3px solid #000;
+    background: rgb(var(--color-warning-500));
+    box-shadow: 4px 4px 0 0 #000;
+
+    color: #000;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.8rem; /* 150% */
+
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 1rem;
+}
+
+.notion-callout {
+    background-color: rgb(var(--color-primary-500));;
+}
+
+.notion-quote:after {
+    content: unset;
+}
+
+.notion-quote:before {
+    content: unset;
+}
+
+.notion-page {
+    width: 90% !important;
+    max-width: 680px !important;
+}
+
+.initial-letter .notion-text:not(.notion-text ~ .notion-text)::first-letter {
+    line-break: auto;
+    line-height: 1em;
+    font-size: 3rem;
+    font-weight: 400;
+    overflow-wrap: normal;
+    float: left;
+    padding: 0.3rem 0.3rem 0 0;
+}
+
+
+.notion-app .notion-yellow_background {
+    background: linear-gradient(180deg,transparent 0,transparent 45%,rgb(var(--color-warning-500)) 55%,rgb(var(--color-warning-500)) 100%);
+    padding: 0 .2rem;
+    color: #000;
+}
+
+.notion-text {
+    line-height: 1.8rem !important;
+}
+
+
+.menu {
+    background-color: rgb(var(--color-secondary-500));
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .content {
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem 1rem;
+    gap: 2rem;
+    min-height: 70dvh;
+}
+
+.menu .content .button-container {
+    justify-content: end;
+    height: 1.5rem;
+    display: none;
+    color: rgb(var(--color-white));
+}
+
+.menu .content .logo-container {
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+}
+
+.menu .content .logo svg {
+    width: 100%;
+    height: 100%;
+}
+
+.menu .content .logo,
+.menu .content .close-button {
+    aspect-ratio: 1/1;
+    height: 100%;
+}
+
+.menu .menu-list {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 1;
+}
+
+.menu .menu-link {
+    color: rgb(var(--color-white));
+    font-weight: 900;
+    font-size: 1rem;
+    text-decoration: none;
+    opacity: 0.5;
+    padding-left: 1.75rem;
+    position: relative;
+}
+
+.menu .menu-link.active {
+    opacity: 1.0;
+}
+
+.menu .menu-link.active::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0.75rem;
+    left: 0;
+    background-color: rgb(var(--color-primary-500));
+    border-radius: 0.5rem;
+}
+
+
+.react-modal-sheet-backdrop {
+    /* custom styles */
+    z-index: 10;
+    backdrop-filter: blur(10px);
+}
+.react-modal-sheet-container {
+    background-color: rgb(var(--color-secondary-500)) !important;
+    box-shadow: unset !important;
+}
+.react-modal-sheet-header {
+    /* custom styles */
+}
+.react-modal-sheet-drag-indicator {
+    /* custom styles */
+}
+.react-modal-sheet-content {
+    /* custom styles */
+    z-index: 11;
+}
+
+.react-modal-sheet-content {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    overflow: hidden;
+    background-color: unset;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.25) inset;
+    }
+    .menu .content .button-container {
+        display: flex;
+    }
+}
+
