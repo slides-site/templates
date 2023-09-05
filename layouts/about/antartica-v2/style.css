@@ -14,7 +14,6 @@
 .about.about-antartica .media {
     width: 100%;
     flex: 1;
-    background-color: red;
 }
 
 .about.about-antartica .carrousel-container {
@@ -46,6 +45,7 @@
 @media (min-width: 780px) {
     .about.about-antartica .carrousel-container {
         width: 55%;
+        min-width: 600px;
         justify-content: end;
     }
     .about.about-antartica .content {
@@ -78,7 +78,6 @@
         justify-content: end;
         align-items: end;
     }
-
 
     .about.about-antartica .carrousel-item {
         flex: 1;
