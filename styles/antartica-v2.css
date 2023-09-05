@@ -30,18 +30,21 @@
 }
 
 .card {
-    background-color: rgb(var(--color-white));
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 0.875rem;
-    box-shadow: 8px 8px 0 0 #000;
     align-content: start;
     align-items: start;
 }
 
 .highlight-normal {
     background: linear-gradient(180deg, transparent 0%, transparent 45%, rgb(var(--color-warning-500)) 45%, rgb(var(--color-warning-500)) 90%,transparent 90%, transparent 100%);
+    padding: 0 0.2rem;
+}
+
+.highlight-normal-secondary {
+    background: linear-gradient(180deg, transparent 0%, transparent 50%, rgb(var(--color-secondary-500)) 50%, rgb(var(--color-secondary-500)) 90%,transparent 90%, transparent 100%);
     padding: 0 0.2rem;
 }
 
@@ -64,16 +67,15 @@
 }
 
 .index {
-    background-color: rgb(var(--color-white));
-    opacity: 0.5;
+    background-color: rgb(var(--color-black));
+    opacity: 0.5 !important;
 }
 
 .index.active {
-    background-color: rgb(var(--color-white));
+    background-color: rgb(var(--color-black));
     width: 0.5rem;
-    opacity: 1.0;
+    opacity: 1.0 !important;
 }
-
 
 .notion-app b{
     color: #000
@@ -277,3 +279,6 @@
     }
 }
 
+.text-xl {
+    line-height: 1.5rem;
+}
