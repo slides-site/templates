@@ -34,7 +34,7 @@
     content: " ";
     position: absolute;
     inset: 4px;
-    background-color: rgb(var(--color-black));
+    background-color: rgb(var(--color-white));
     background-repeat: no-repeat;
     mask-size: 100%;
     mask-repeat: no-repeat;
