@@ -30,7 +30,7 @@
                 {
                   "tag":"Media",
                   "mainStyle":"d-full-height absolute inset-0",
-                  "elementKey": "image",
+                  "elementKey": "media",
                   "content":{
                     "url":"https://slites-site.s3.us-west-1.amazonaws.com/placeholder.webp"
                   }
