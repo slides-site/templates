@@ -101,6 +101,15 @@
     color: #000
 }
 
+.notion-title {
+    text-align: center;
+}
+
+.notion-h {
+    text-align: center;
+    width: 100%;
+}
+
 .full-width {
     width: 100vw;
     position: relative;
@@ -279,6 +288,6 @@
     }
 }
 
-.text-xl {
-    line-height: 1.5rem;
-}
+/*.text-xl {*/
+/*    line-height: 1.5rem;*/
+/*}*/
