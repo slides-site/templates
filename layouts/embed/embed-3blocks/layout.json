@@ -1,0 +1,76 @@
+{
+  "name": "Embed 3 Blocks",
+  "key": "BlocksLayout",
+  "containerId": "64fa2e182a02210b3bf143a8",
+  "blocks": [
+    {
+      "name":"container",
+      "mainStyle": "container large safe-area",
+      "blocks":[
+        {
+          "name":"content",
+          "mainStyle":"(parent) gap-5 md:gap-10",
+          "blocks":[
+            {
+              "name":"top",
+              "mainStyle":"(parent) md:gap-10 gap-6 flex justify-start md:justify-end md:items-start flex-col",
+              "blocks":[
+                {
+                  "elementKey": "title",
+                  "tag":"Heading",
+                  "style":"text-black",
+                  "content":"John Smith"
+                },
+                {
+                  "elementKey": "subtitle",
+                  "name": "subtitle",
+                  "tag": "p",
+                  "content": "Software Engineer"
+                }
+              ]
+            },
+            {
+              "mainStyle": "relative flex-1 md:row-span-2 justify-self-end",
+              "style": "md:w-[45dvw]",
+              "blocks":[
+                {
+                  "name": "embed-container",
+                  "mainStyle": "flex justify-center items-center w-full h-full",
+                  "blocks": [
+                    {
+                      "mainStyle": "md:h-[80%] corners h-full w-full",
+                      "blocks": [
+                        {
+                          "name": "embed",
+                          "tag": "Embed",
+                          "elementKey": "embed"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name":"bottom",
+              "mainStyle":"(parent) flex md:gap-10 flex-col justify-around md:justify-start",
+              "blocks":[
+                {
+                  "mainStyle":"text-center stack-x justify-around md:justify-start md:gap-8 items-center",
+                  "blocks": [
+                    {
+                      "name": "button",
+                      "elementKey": "button",
+                      "tag": "Button",
+                      "mainStyle": "button full d-large"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
