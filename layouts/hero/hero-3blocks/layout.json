@@ -8,7 +8,7 @@
       "blocks":[
         {
           "name":"content",
-          "mainStyle":"(parent) gap-0 md:gap-3",
+          "mainStyle":"(parent) gap-0 md:gap-3 d-safe-left",
           "blocks":[
             {
               "name":"top",
