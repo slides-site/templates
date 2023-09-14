@@ -1,0 +1,59 @@
+{
+  "name": "LinksAccordion",
+  "key": "BlocksLayout",
+  "containerId": "65025d22f4577e5d644d6b52",
+  "blocks": [
+    {
+      "name":"container",
+      "mainStyle": "container large safe-area",
+      "blocks":[
+        {
+          "name":"content",
+          "mainStyle":"(parent) gap-6 md:gap-10",
+          "blocks":[
+            {
+              "name":"elements",
+              "blocks": [
+                {
+                  "tag": "p",
+                  "mainStyle": "text-4xl text-secondary-700 d-text-6xl",
+                  "content": "News"
+                },
+                {
+                  "tag": "AnimatedBlock",
+                  "mainStyle":"flex-1 flex flex-col gap-2 max-h-full overflow-hidden justify-end",
+                  "blocks": [
+                    {
+                      "tag": "p",
+                      "elementKey": "date"
+                    },
+                    {
+                      "tag": "h2",
+                      "elementKey": "title",
+                      "mainStyle":"line-clamp-4 md:line-clamp-6 text-xl d-text-3xl text-primary font-bold"
+                    },
+                    {
+                      "tag": "p",
+                      "elementKey": "subtitle",
+                      "mainStyle": "line-clamp-5 overflow-hidden none"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "content",
+              "mainStyle": "relative md:h-[80%] h-[55%] md:w-[55%]",
+              "blocks":[
+                {
+                  "name":"LinksAccordion",
+                  "tag":"LinksAccordion"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
