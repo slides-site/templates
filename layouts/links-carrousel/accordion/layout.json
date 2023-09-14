@@ -5,14 +5,15 @@
   "blocks": [
     {
       "name":"container",
-      "mainStyle": "container-full safe-area",
+      "mainStyle": "container-full safe-area flex justify-center items-center",
       "blocks":[
         {
           "name":"content",
-          "mainStyle":"(parent) gap-6 md:gap-10",
+          "mainStyle":"(parent) gap-6 md:gap-10 md:h-[80%]",
           "blocks":[
             {
               "name":"elements",
+              "mainStyle": "(parent) md:gap-0",
               "blocks": [
                 {
                   "tag": "p",
@@ -36,6 +37,24 @@
                       "tag": "p",
                       "elementKey": "subtitle",
                       "mainStyle": "line-clamp-5 overflow-hidden none"
+                    },
+                    {
+                      "mainStyle": "none d-block relative py-0.5",
+                      "blocks": [
+                        {
+                          "tag": "LinkButton",
+                          "elementKey": "href",
+                          "mainStyle": "text-secondary-700"
+                        },
+                        {
+                          "mainStyle": "absolute right-0 top-0 bottom-0",
+                          "blocks": [
+                            {
+                              "tag": "ArrowControls"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
