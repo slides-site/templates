@@ -1,0 +1,70 @@
+{
+  "name": "Events OneSide",
+  "key": "BlocksLayout",
+  "containerId": "65036bd220eddf5ec686aacd",
+  "blocks": [
+    {
+      "name":"container",
+      "blocks":[
+        {
+          "mainStyle":"absolute top-0 left-0 right-0 h-[60%]",
+          "blocks":[
+            {
+              "tag":"Media",
+              "mainStyle":"inner-bottom-shadow-strong relative h-full w-full",
+              "elementKey": "media"
+            }
+          ]
+        },{
+          "name":"content",
+          "mainStyle":"(parent) gap-6 md:gap-10",
+          "blocks":[
+            {
+              "tag":"h2",
+              "mainStyle":"safe-area-x text-4xl d-text-6xl",
+              "content":"Concerts"
+            },
+            {
+              "tag":"GroupedMultipleSlider",
+              "mainStyle":"bg-secondary-800 corners lines overflow-hidden relative",
+              "elementKey": "datasource",
+              "blocks":[
+                {
+                  "mainStyle":"flex h-full w-full items-start flex-col p-5 gap-3 relative min-h-[18rem]",
+                  "blocks":[
+                    {
+                      "tag":"p",
+                      "style":"font-medium text-base text-primary uppercase",
+                      "elementKey":"headline"
+                    },
+                    {
+                      "tag":"p",
+                      "style":"text-lg font-medium flex-1 line-clamp-3 md:line-clamp-4",
+                      "elementKey":"title"
+                    },
+                    {
+                      "tag":"p",
+                      "style":"font-normal text-sm icon",
+                      "elementKey":"city"
+                    },
+                    {
+                      "tag":"p",
+                      "style":"font-normal text-sm",
+                      "elementKey":"country"
+                    },
+                    {
+                      "tag":"Button",
+                      "mainStyle":"button full",
+                      "style":"bg-primary text-white text-base",
+                      "elementKey":"button"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
