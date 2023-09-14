@@ -47,6 +47,7 @@
               "blocks":[
                 {
                   "name":"LinksAccordion",
+                  "elementKey": "datasource",
                   "tag":"LinksAccordion"
                 }
               ]
