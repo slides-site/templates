@@ -44,6 +44,7 @@
                 {
                   "tag":"p",
                   "elementKey": "details",
+                  "mainStyle": "",
                   "style":"text-secondary-700 text-base d-text-xl",
                   "content":"<b class='text-primary'>Principal Conductor and Artistic Advisor</b><br/>The Hallé (2024-)<br/><b class='text-primary'>Chief Conductor</b><br/>Japan Philharmonic Orchestra (2023-)<br/><b class='text-primary'>Principal Guest Conductor</b><br/>Dresden Philharmonic Orchestra (2023-)"
                 },
