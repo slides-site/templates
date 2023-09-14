@@ -62,7 +62,7 @@
             },
             {
               "name": "content",
-              "mainStyle": "relative md:h-[80%] h-[55%] md:w-[55%]",
+              "mainStyle": "relative md:h-full h-[55%] md:w-[55%]",
               "blocks":[
                 {
                   "name":"LinksAccordion",
