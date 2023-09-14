@@ -5,7 +5,7 @@
   "blocks": [
     {
       "name":"container",
-      "mainStyle": "container large safe-area",
+      "mainStyle": "container-full safe-area",
       "blocks":[
         {
           "name":"content",
