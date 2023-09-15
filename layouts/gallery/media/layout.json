@@ -10,7 +10,7 @@
       "blocks":[
         {
           "name":"content",
-          "mainStyle": "content w-full h-full flex flex-col md:flex-row d-safe-left md:items-center md:justify-between gap-6 md:gap-10 md:h-[80%]",
+          "mainStyle": "content w-full h-full flex flex-col md:flex-row md:items-center md:justify-between gap-6 md:gap-10 md:h-[80%]",
           "blocks":[
             {
               "name":"elements",
