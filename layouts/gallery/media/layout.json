@@ -14,7 +14,7 @@
           "blocks":[
             {
               "name":"elements",
-              "style":"relative flex flex-col gap-4 md:gap-20",
+              "mainStyle":"relative flex flex-col gap-4 md:gap-20",
               "blocks":[
                 {
                   "tag":"p",
