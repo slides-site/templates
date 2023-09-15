@@ -6,7 +6,7 @@
     {
       "name":"container",
       "mainStyle": "container large safe-area flex justify-center items-center",
-      "style": "bg-black text-white",
+      "style": "bg-secondary-900 text-white",
       "blocks":[
         {
           "name":"content",
