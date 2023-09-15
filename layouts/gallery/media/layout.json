@@ -28,7 +28,7 @@
                     {
                       "tag":"p",
                       "mainStyle":"text-primary d-text-3xl text-lg",
-                      "elementKey": "headline"
+                      "content": "You're watching"
                     },
                     {
                       "tag":"h2",
