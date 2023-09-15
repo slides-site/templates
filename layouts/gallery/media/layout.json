@@ -18,7 +18,7 @@
               "blocks":[
                 {
                   "tag":"p",
-                  "style":"text-4xl d-text-6xl",
+                  "mainStyle":"text-4xl d-text-6xl",
                   "elementKey": "slide-title"
                 },
                 {
@@ -27,7 +27,7 @@
                   "blocks":[
                     {
                       "tag":"p",
-                      "style":"text-primary d-text-3xl text-lg",
+                      "mainStyle":"text-primary d-text-3xl text-lg",
                       "elementKey": "headline"
                     },
                     {
