@@ -1,0 +1,49 @@
+{
+  "name": "Story TwoSides",
+  "key": "BlocksLayout",
+  "containerId": "65025d22f4577e5d644d6b52",
+  "blocks": [
+    {
+      "name": "container",
+      "mainStyle": "container-full flex justify-center items-center",
+      "style": "bg-secondary-900 text-white",
+      "blocks": [
+        {
+          "name": "content",
+          "mainStyle": "content w-full h-full",
+          "style": "flex flex-col md:flex-row md:items-center md:justify-between",
+          "blocks": [
+            {
+              "name": "elements",
+              "animation": "fadeIn",
+              "mainStyle": "relative flex flex-col gap-4 flex-1 h-full md:min-w-[55%]",
+              "blocks": [
+                {
+                  "tag":"Media",
+                  "elementKey": "media",
+                  "mainStyle":"absolute h-full w-full"
+                }
+              ]
+            },
+            {
+              "name": "content",
+              "mainStyle": "md:h-full md:flex md:flex-1 md:items-center md:p-10 pb-[5rem]",
+              "blocks": [
+                {
+                  "mainStyle":"safe-area-x z-10",
+                  "animation":"fadeUp",
+                  "blocks":[
+                    {
+                      "tag":"ExpandableText",
+                      "elementKey": "content"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
