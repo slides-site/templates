@@ -11,7 +11,7 @@
         {
           "name": "content",
           "mainStyle": "content w-full h-full",
-          "style": "flex flex-col md:flex-row md:items-center md:justify-between",
+          "style": "flex flex-col md:flex-row md:items-center md:justify-between gap-6 md:gap-0",
           "blocks": [
             {
               "name": "elements",
