@@ -19,6 +19,7 @@
           ]
         },{
           "name":"content",
+          "elementKey":"_content",
           "style":"gap-6 md:gap-10",
           "blocks":[
             {
