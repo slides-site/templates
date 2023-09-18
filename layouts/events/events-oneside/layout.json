@@ -43,9 +43,14 @@
                       "elementKey":"headline"
                     },
                     {
-                      "tag":"p",
-                      "style":"text-lg font-medium flex-1 line-clamp-3 md:line-clamp-4",
-                      "elementKey":"title"
+                      "style": "flex-1",
+                      "blocks": [
+                        {
+                          "tag":"p",
+                          "style":"text-lg font-medium flex-1 line-clamp-3 md:line-clamp-4",
+                          "elementKey":"title"
+                        }
+                      ]
                     },
                     {
                       "tag":"p",
