@@ -26,7 +26,7 @@
               ]
             },
             {
-              "mainStyle":"absolute md:bottom-0 top-0 left-0 right-0 flex-1 h-[90%] z-10",
+              "mainStyle":"absolute md:bottom-0 md:top-[unset] top-0 left-0 right-0 flex-1 h-[90%] z-10",
               "animation":"fadeIn",
               "blocks":[
                 {
