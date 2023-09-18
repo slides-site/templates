@@ -5,19 +5,21 @@
   "blocks": [
     {
       "name":"container",
+      "elementKey": "_container",
       "blocks":[
         {
           "mainStyle":"absolute top-0 left-0 right-0 h-[60%]",
           "blocks":[
             {
               "tag":"Media",
-              "mainStyle":"inner-bottom-shadow-strong relative h-full w-full",
+              "mainStyle":"relative h-full w-full",
+              "style": "inner-bottom-shadow-strong",
               "elementKey": "media"
             }
           ]
         },{
           "name":"content",
-          "mainStyle":"(parent) gap-6 md:gap-10",
+          "style":"gap-6 md:gap-10",
           "blocks":[
             {
               "tag":"h2",
