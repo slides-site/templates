@@ -1,0 +1,58 @@
+{
+  "name": "Magazine OneSide",
+  "key": "BlocksLayout",
+  "containerId": "65036bd220eddf5ec686aacd",
+  "blocks": [
+    {
+      "name": "container",
+      "elementKey": "_container",
+      "mainStyle": "container large flex justify-center items-end w-full",
+      "blocks": [
+        {
+          "name": "content",
+          "mainStyle": "content w-full h-full flex flex-col",
+          "elementKey": "_content",
+          "style": "py-[5rem] justify-between relative text-white gap-6 md:gap-14",
+          "blocks": [
+            {
+              "mainStyle":"flex justify-center",
+              "animation":"fadeIn",
+              "blocks":[
+                {
+                  "tag":"Media",
+                  "mainStyle":"relative h-full md:w-[70%] w-full safe-area-x",
+                  "elementKey": "logo"
+                }
+              ]
+            },
+            {
+              "mainStyle":"absolute md:bottom-0 top-0 left-0 right-0 flex-1 h-[90%] z-10",
+              "animation":"fadeIn",
+              "blocks":[
+                {
+                  "tag":"Media",
+                  "mainStyle":"absolute h-full w-full",
+                  "elementKey": "media"
+                }
+              ]
+            },
+            {
+              "mainStyle":"flex-col flex items-center z-10 gap-4 safe-area-x",
+              "animation":"fadeUp",
+              "blocks":[
+                {
+                  "tag":"Media",
+                  "elementKey": "title"
+                },
+                {
+                  "mainStyle":"flex flex-row gap-2",
+                  "elementKey": "social"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
