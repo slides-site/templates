@@ -6,6 +6,7 @@
     {
       "name": "container",
       "mainStyle": "container-full flex justify-center items-center pt-[2rem]",
+      "elementKey": "_container",
       "style": "text-white",
       "blocks": [
         {
