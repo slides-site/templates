@@ -28,7 +28,8 @@
             },
             {
               "tag":"GroupedMultipleSlider",
-              "mainStyle":"bg-secondary-800 corners lines overflow-hidden relative",
+              "mainStyle":"corners lines overflow-hidden relative",
+              "style": "bg-secondary-800",
               "elementKey": "datasource",
               "blocks":[
                 {
