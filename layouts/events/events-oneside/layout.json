@@ -35,7 +35,7 @@
               "elementKey": "datasource",
               "blocks":[
                 {
-                  "mainStyle":"flex h-full w-full items-start flex-col p-5 gap-3 relative min-h-[18rem]",
+                  "mainStyle":"flex h-full w-full items-start justify-around flex-col p-5 gap-3 relative min-h-[18rem]",
                   "blocks":[
                     {
                       "tag":"p",
