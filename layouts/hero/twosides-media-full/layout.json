@@ -1,0 +1,55 @@
+{
+  "name": "Hero Media Full TwoSides",
+  "key": "BlocksLayout",
+  "containerId": "65025d22f4577e5d644d6b52",
+  "blocks": [
+    {
+      "name": "container",
+      "mainStyle": "container-full flex justify-center items-center",
+      "style": "bg-black text-white safe-area",
+      "blocks": [
+        {
+          "name": "content",
+          "mainStyle": "content w-full h-full",
+          "style": "flex flex-col md:flex-row md:items-center md:justify-center justify-start gap-6 md:gap-10 px-[5%] md:pr-0",
+          "blocks": [
+            {
+              "name": "elements",
+              "animation": "fadeUp",
+              "mainStyle": "relative flex flex-col gap-6 md:max-w-[40%] items-start z-10 pt-[15%] md:pt-0",
+              "blocks": [
+                {
+                  "tag":"h2",
+                  "mainStyle":"text-4xl d-text-5xl font-bold",
+                  "elementKey": "title"
+                },
+                {
+                  "tag":"p",
+                  "mainStyle":"text-lg font-light",
+                  "elementKey": "subtitle"
+                },
+                {
+                  "tag":"Button",
+                  "mainStyle":"button icon link primary",
+                  "style":"bg-white text-black",
+                  "elementKey": "button"
+                }
+              ]
+            },
+            {
+              "mainStyle":"md:relative absolute bottom-0 md:flex-1 left-0 right-0 top-0 md:max-h-full md:h-full",
+              "animation":"fadeIn",
+              "blocks":[
+                {
+                  "tag":"Media",
+                  "elementKey": "media",
+                  "mainStyle":"h-full w-full d-inner-left-shadow relative d-full-height"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
