@@ -1,0 +1,91 @@
+{
+  "name": "Media Covers Gallery",
+  "key": "BlocksLayout",
+  "containerId": "65036bd220eddf5ec686aacd",
+  "blocks": [
+    {
+      "name": "container",
+      "elementKey": "_container",
+      "mainStyle": "container large flex justify-center items-end w-full h-full",
+      "style": "safe-area-y bg-black",
+      "blocks": [
+        {
+          "mainStyle":"absolute top-0 left-0 right-0 h-[85%]",
+          "tag":"AnimatedBlock",
+          "name":"media-container",
+          "blocks":[
+            {
+              "tag":"Media",
+              "mainStyle":"inner-bottom-shadow-strong relative h-full w-full",
+              "elementKey":"media",
+              "content":{
+                "actionStyle":"absolute bottom-[4rem] md:bottom-[6rem] right-[5%] text-primary",
+                "video":{
+                  "className":"h-full w-full object-cover object-center",
+                  "loop":true,
+                  "muted":true,
+                  "autoPlay":true,
+                  "playsInline":true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name":"content",
+          "mainStyle":"content w-full h-full flex flex-col justify-end relative z-10 gap-4 md:gap-10 md:flex-row md:items-end md:justify-between",
+          "blocks":[
+            {
+              "tag":"AnimatedBlock",
+              "elementKey":"elements",
+              "style":"flex flex-col text-white items-start gap-4 safe-left",
+              "blocks":[
+                {
+                  "style":"w-[15rem]",
+                  "blocks":[
+                    {
+                      "tag":"Media",
+                      "elementKey":"title"
+                    }
+                  ]
+                },
+                {
+                  "blocks":[
+                    {
+                      "tag":"Button",
+                      "style":"button icon youtube white bg-primary text-white text-base",
+                      "elementKey":"button"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "style":"overflow-x-scroll no-scrollbar px-[5%] md:pl-0 flex flex-row",
+              "blocks":[
+                {
+                  "elementKey":"list",
+                  "tag":"DataBlock",
+                  "style":"inline-flex flex-row text-white items-start justify-start gap-2 h-[5rem] md:h-[7rem]",
+                  "blocks":[
+                    {
+                      "name":"item",
+                      "style":"aspect-video corners large h-full transition-all cursor-pointer",
+                      "activeStyle":"border-white border-2 border-opacity-40 border-solid",
+                      "blocks":[
+                        {
+                          "tag":"Media",
+                          "elementKey":"cover"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

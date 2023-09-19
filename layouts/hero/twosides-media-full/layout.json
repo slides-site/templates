@@ -31,7 +31,7 @@
                 {
                   "tag":"Button",
                   "mainStyle":"button icon link primary",
-                  "style":"bg-white text-black",
+                  "style":"bg-white text-black sm text-2xl font-normal",
                   "elementKey": "button"
                 }
               ]
