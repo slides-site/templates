@@ -5,6 +5,7 @@
   "blocks": [
     {
       "name": "container",
+      "elementKey": "_container",
       "mainStyle": "container-full flex justify-center items-center",
       "style": "bg-secondary-900 text-white",
       "blocks": [
