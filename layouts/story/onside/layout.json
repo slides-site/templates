@@ -29,7 +29,8 @@
                 {
                   "tag":"Media",
                   "elementKey": "media",
-                  "mainStyle":"inner-bottom-shadow-strong-secondary-900 relative h-full w-full"
+                  "mainStyle":"relative h-full w-full",
+                  "style": "inner-bottom-shadow-strong-secondary-900"
                 }
               ]
             },
