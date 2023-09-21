@@ -27,7 +27,7 @@
             },
             {
               "name":"content",
-              "mainStyle":"relative flex-1 md:row-span-2 justify-self-end",
+              "mainStyle":"relative md:row-span-2 justify-self-end",
               "style":"md:w-[55dvw]",
               "blocks":[
                 {
