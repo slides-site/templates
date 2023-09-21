@@ -15,7 +15,7 @@
             {
               "tag":"Media",
               "elementKey": "media",
-              "mainStyle":"absolute h-full w-full",
+              "mainStyle":"absolute h-full w-full"
             }
           ]
         },
