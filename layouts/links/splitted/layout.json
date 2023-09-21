@@ -17,11 +17,11 @@
               "mainStyle":"absolute h-full w-full",
               "content":  {
                 "image": {
-                  "className": "w-full h-full object-cover object-top",
+                  "className": "w-full h-full object-cover object-top"
                 },
                 "url": "https://dpvwr84jw9zed.cloudfront.net/duopimpinela/links/links.webp",
                 "desktopUrl":
-                "https://dpvwr84jw9zed.cloudfront.net/duopimpinela/links/links_md.webp",
+                "https://dpvwr84jw9zed.cloudfront.net/duopimpinela/links/links_md.webp"
               }
             }
           ]
