@@ -91,7 +91,7 @@
 .polls.social .hashtag:before {
     content: "#";
     position: relative;
-    color: rgb(var(--color-secondary-500));
+    color: rgb(var(--color-primary-500));
     font-weight: 200;
 }
 
