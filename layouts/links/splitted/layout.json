@@ -14,14 +14,45 @@
           "blocks":[
             {
               "tag":"Media",
-              "mainStyle":"absolute h-full w-full",
-              "content":  {
-                "image": {
-                  "className": "w-full h-full object-cover object-top"
+              "elementKey": "media",
+              "mainStyle":"absolute h-full w-full"
+            }
+          ]
+        },
+        {
+          "name":"content",
+          "mainStyle":"content w-full md:w-[40%] h-full flex flex-col justify-center md:justify-end items-center relative safe-area-x z-10 gap-4 md:gap-8 md:pb-4",
+          "blocks":[
+            {
+              "mainStyle":"flex flex-col items-center gap-2",
+              "blocks":[
+                {
+                  "tag":"h2",
+                  "style":"text-white",
+                  "elementKey":"title"
                 },
-                "url": "https://dpvwr84jw9zed.cloudfront.net/duopimpinela/links/links.webp",
-                "desktopUrl": "https://dpvwr84jw9zed.cloudfront.net/duopimpinela/links/links_md.webp"
-              }
+                {
+                  "style":"text-white text-center",
+                  "elementKey":"subtitle",
+                  "tag":"p"
+                }
+              ]
+            },
+            {
+              "mainStyle":"w-full flex flex-col justify-end gap-2",
+              "elementKey":"datasource",
+              "tag":"DataBlock",
+              "blocks":[
+                {
+                  "blocks":[
+                    {
+                      "tag":"Button",
+                      "mainStyle":"button full text-white bg-primary-600",
+                      "elementKey":"button"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
