@@ -9,7 +9,6 @@
       "blocks":[
         {
           "mainStyle":"absolute inset-0",
-          "tag":"AnimatedBlock",
           "name":"media-container",
           "blocks":[
             {
