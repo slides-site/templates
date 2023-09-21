@@ -1,0 +1,94 @@
+{
+  "name": "Hero 3 Blocks",
+  "key": "BlocksLayout",
+  "containerId": "64fa2e182a02210b3bf143a8",
+  "blocks": [
+    {
+      "name":"container",
+      "mainStyle":"container large safe-area dots-xs bg-gradient",
+      "blocks":[
+        {
+          "name":"content",
+          "mainStyle":"flex flex-col md:grid-cols-2 md:grid d-grid-cols-2-auto w-full h-full",
+          "style":"gap-5 md:gap-10",
+          "blocks":[
+            {
+              "name":"top",
+              "mainStyle":"relative md:flex-1",
+              "style":"md:gap-10 gap-6 flex justify-start md:justify-end md:items-start flex-col",
+              "blocks":[
+                {
+                  "name":"component.heading",
+                  "tag":"h2",
+                  "mainStyle":"text-3xl d-text-5xl",
+                  "content":"HOGAR PIMPINELA<br/><span class='text-primary'>PARA LA NIÑEZ</span>"
+                }
+              ]
+            },
+            {
+              "name":"content",
+              "mainStyle":"relative flex-1 md:row-span-2 justify-self-end",
+              "style":"md:w-[55dvw]",
+              "blocks":[
+                {
+                  "name":"embed-container",
+                  "mainStyle":"flex justify-center items-center flex-col w-full md:h-full",
+                  "blocks":[
+                    {
+                      "mainStyle":"w-full",
+                      "blocks":[
+                        {
+                          "name":"media",
+                          "style":"corners",
+                          "tag":"Media",
+                          "content":{
+                            "video":{
+                              "className":"h-full w-full object-cover object-center",
+                              "loop":true,
+                              "muted":true,
+                              "autoPlay":true,
+                              "controls":true,
+                              "playsInline":true
+                            },
+                            "url":"https://video.wixstatic.com/video/990162_0fc8ac8f24b54573b550f9362438c73e/480p/mp4/file.mp4"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name":"bottom",
+              "mainStyle":"relative md:p-0",
+              "style":"flex md:gap-10 flex-col justify-around md:justify-start flex-1",
+              "blocks":[
+                {
+                  "name":"subtitle",
+                  "tag":"p",
+                  "style":"text-lg",
+                  "content":"Desde que abrió sus puertas en el mes \nde <span class='text-primary font-bold'>Julio de 1996</span>, el objetivo del Hogar \nha sido siempre el mismo, dar <span class='font-bold'>atención personalizada y gratuita</span> a cada una de \nlas necesidades de los niños y niñas \nque allí viven. "
+                },
+                {
+                  "mainStyle":"text-center stack-x justify-around md:justify-start md:gap-8 items-center",
+                  "blocks":[
+                    {
+                      "name":"button",
+                      "tag":"Button",
+                      "style":"button full d-large bg-primary text-white",
+                      "content":{
+                        "title":"Colaborar",
+                        "href":"https://donamos.org/pimpinela/colabora/"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
