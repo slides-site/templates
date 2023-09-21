@@ -45,6 +45,7 @@
               "tag":"DataBlock",
               "blocks":[
                 {
+                  "animation":"fadeUp",
                   "blocks":[
                     {
                       "tag":"Button",
