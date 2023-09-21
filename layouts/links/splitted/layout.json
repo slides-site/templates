@@ -5,7 +5,7 @@
   "blocks": [
     {
       "name":"container",
-      "style":"container large flex justify-center items-end w-full h-full safe-area-y bg-black",
+      "style":"container large flex justify-center items-end w-full h-full safe-area-y",
       "blocks":[
         {
           "mainStyle":"absolute inset-0",
