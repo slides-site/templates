@@ -21,7 +21,7 @@
         },
         {
           "name":"content",
-          "mainStyle":"content w-full md:w-[40%] h-full flex flex-col justify-center items-center relative safe-area-x z-10 gap-16 md:gap-8 md:pb-4",
+          "mainStyle":"content w-full md:w-[40%] h-full flex flex-col justify-center items-center relative safe-area-x z-10 gap-16 md:gap-8 md:pb-4 md:pt-[20%]",
           "blocks":[
             {
               "mainStyle":"flex flex-col items-center gap-2",
