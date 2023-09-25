@@ -39,7 +39,7 @@
                       "blocks":[
                         {
                           "name":"media",
-                          "style":"corners",
+                          "style":"corners overflow-hidden",
                           "tag":"Media",
                           "content":{
                             "video":{

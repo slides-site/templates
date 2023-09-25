@@ -70,7 +70,7 @@
                   "blocks":[
                     {
                       "name":"item",
-                      "style":"aspect-video corners large h-full transition-all cursor-pointer",
+                      "style":"aspect-video corners large h-full transition-all cursor-pointer overflow-hidden",
                       "activeStyle":"border-white border-2 border-opacity-40 border-solid",
                       "blocks":[
                         {
