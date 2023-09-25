@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Knockout';
+    font-style: normal;
+    font-display: block;
+    src: url(https://slites-site.s3.us-west-1.amazonaws.com/antarticapress/fonts/Knockout-HTF93-UltmtHeviwt.otf);
+}
+
+@font-face {
+    font-family: 'Knockout';
+    font-style: normal;
+    font-weight: 100;
+    font-display: block;
+    src: url(https://slites-site.s3.us-west-1.amazonaws.com/antarticapress/fonts/Knockout-HTF46-Flyweight.otf);
+}
