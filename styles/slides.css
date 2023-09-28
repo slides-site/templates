@@ -8,7 +8,6 @@
 }
 
 .highlight-gradient-p600-p400 {
-    font-weight: 500;
     background: rgb(var(--color-primary-400));
     background: linear-gradient(45deg, rgb(var(--color-primary-600)) 0%, rgb(var(--color-primary-400)) 100%);
     -webkit-background-clip: text;
@@ -16,7 +15,6 @@
 }
 
 .highlight-gradient-p500-s600 {
-    font-weight: 500;
     background: linear-gradient(90deg, rgb(var(--color-primary-500)) 0%, rgb(var(--color-secondary-600)) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -27,6 +25,11 @@
     background-image: url('data:image/svg+xml,<svg width="144" height="7" viewBox="0 0 144 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.8" d="M1.10628 2.18961C41.4394 1.01475 126.37 -0.569918 143.428 2.49028C95.9793 2.70292 1.06605 3.78531 0.999778 6.41377C47.083 5.54053 140.068 4.19042 143.345 5.77584" stroke="%23CEB8FE"/></svg>');
     background-position: bottom right;
     background-size: 90%;
+}
+
+.highlight-primary-100 {
+    background: linear-gradient(180deg, transparent 0%, transparent 50%, rgb(var(--color-primary-100)) 50%, rgb(var(--color-primary-100)) 90%,transparent 90%, transparent 100%);
+    padding: 0 0.2rem;
 }
 
 .highlight-background {

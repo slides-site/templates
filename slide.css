@@ -544,7 +544,6 @@
 /* TODO */
 
 .highlight-gradient-p400-p600 {
-    font-weight: 500;
     background: rgb(var(--color-primary-400));
     background: linear-gradient(45deg, rgb(var(--color-primary-400)) 0%, rgb(var(--color-primary-600)) 100%);
     -webkit-background-clip: text;
@@ -552,7 +551,6 @@
 }
 
 .highlight-gradient-p600-p400 {
-    font-weight: 500;
     background: rgb(var(--color-primary-400));
     background: linear-gradient(45deg, rgb(var(--color-primary-600)) 0%, rgb(var(--color-primary-400)) 100%);
     -webkit-background-clip: text;
@@ -562,9 +560,11 @@
 .highlight-underline {
 
 }
+
 .highlight-background {
 
 }
+
 .highlight-border-blur {
 
 }
