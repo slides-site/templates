@@ -24,7 +24,6 @@
 
 .hero-slides .titles {
     justify-content: end;
-    gap: 0.150rem;
 }
 
 .hero-slides .titles .typer {
@@ -91,9 +90,5 @@
     .hero-slides .titles .logo {
         padding-bottom: 1rem;
         width: 15rem;
-    }
-
-    .hero-slides .titles {
-        gap: 0.5rem;
     }
 }
