@@ -22,7 +22,7 @@
 
 .highlight-underline {
     background-repeat: no-repeat;
-    background-image: url('data:image/svg+xml,<svg width="144" height="7" viewBox="0 0 144 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.8" d="M1.10628 2.18961C41.4394 1.01475 126.37 -0.569918 143.428 2.49028C95.9793 2.70292 1.06605 3.78531 0.999778 6.41377C47.083 5.54053 140.068 4.19042 143.345 5.77584" stroke="%23CEB8FE"/></svg>');
+    background-image: url('data:image/svg+xml,<svg width="144" height="7" viewBox="0 0 144 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.8" d="M1.10628 2.18961C41.4394 1.01475 126.37 -0.569918 143.428 2.49028C95.9793 2.70292 1.06605 3.78531 0.999778 6.41377C47.083 5.54053 140.068 4.19042 143.345 5.77584" stroke="%23331DB8"/></svg>');
     background-position: bottom right;
     background-size: 90%;
 }
