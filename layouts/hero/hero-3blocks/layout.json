@@ -16,6 +16,7 @@
               "blocks":[
                 {
                   "elementKey": "title",
+                  "elementType": "text",
                   "tag":"Heading",
                   "mainStyle":"pl-5 md:p-0",
                   "style":"text-black",
@@ -31,6 +32,7 @@
                   "tag":"Media",
                   "mainStyle":"d-full-height absolute inset-0",
                   "elementKey": "media",
+                  "elementType": "media",
                   "content":{
                     "url":"https://slites-site.s3.us-west-1.amazonaws.com/placeholder.webp"
                   }
@@ -43,6 +45,7 @@
               "blocks":[
                 {
                   "tag":"p",
+                  "elementType": "text",
                   "elementKey": "details",
                   "mainStyle": "text-secondary-700 text-base d-text-xl",
                   "style":"",
@@ -50,6 +53,8 @@
                 },
                 {
                   "elementKey": "social",
+                  "elementType": "text",
+                  "tag":"p",
                   "mainStyle":"text-center stack-x justify-around md:justify-start md:gap-8 items-center",
                   "style":"text-primary font-light text-base d-text-lg",
                   "content":"<a href='https://www.facebook.com/kahchun.music/' target='_blank' class='text-inherit no-underline'>Facebook</a><span class='text-3xl'>·</span><a href='https://twitter.com/kahchun_music' class='text-inherit no-underline'>X (Twitter)</a><span class='text-3xl'>·</span><a href='https://www.instagram.com/kahchun_music' target='_blank' class='text-inherit no-underline'>Instagram</a>"
