@@ -53,8 +53,8 @@
                 },
                 {
                   "elementKey": "social",
-                  "elementType": "text",
                   "tag":"p",
+                  "elementType": "social",
                   "mainStyle":"text-center stack-x justify-around md:justify-start md:gap-8 items-center",
                   "style":"text-primary font-light text-base d-text-lg",
                   "content":"<a href='https://www.facebook.com/kahchun.music/' target='_blank' class='text-inherit no-underline'>Facebook</a><span class='text-3xl'>·</span><a href='https://twitter.com/kahchun_music' class='text-inherit no-underline'>X (Twitter)</a><span class='text-3xl'>·</span><a href='https://www.instagram.com/kahchun_music' target='_blank' class='text-inherit no-underline'>Instagram</a>"
