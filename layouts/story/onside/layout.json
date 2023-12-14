@@ -23,7 +23,7 @@
               "elementKey": "title"
             },
             {
-              "mainStyle":"md:absolute top-0 left-0 right-0 flex-1 md:h-[70%]",
+              "mainStyle":"md:absolute relative top-0 left-0 right-0 flex-1 md:h-[70%]",
               "animation":"fadeIn",
               "blocks":[
                 {
