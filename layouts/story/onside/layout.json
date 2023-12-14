@@ -29,7 +29,7 @@
                 {
                   "tag":"Media",
                   "elementKey": "media",
-                  "mainStyle":"relative h-full w-full",
+                  "mainStyle":"absolute h-full w-full",
                   "style": "inner-bottom-shadow-strong-secondary-900"
                 }
               ]
