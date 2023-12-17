@@ -1,0 +1,26 @@
+{
+  "name": "Media",
+  "blocks": [
+    {
+      "mainStyle":"absolute top-0 left-0 right-0 h-full",
+      "tag":"AnimatedBlock",
+      "name":"media-container",
+      "blocks":[
+        {
+          "tag":"Media",
+          "mainStyle":"relative h-full w-full",
+          "elementKey":"media",
+          "content":{
+            "video":{
+              "className":"h-full w-full object-cover object-center",
+              "loop":true,
+              "muted":true,
+              "autoPlay":true,
+              "playsInline":true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
