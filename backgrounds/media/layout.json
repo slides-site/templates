@@ -1,5 +1,6 @@
 {
   "name": "Media",
+  "key": "media",
   "blocks": [
     {
       "mainStyle":"absolute top-0 left-0 right-0 h-full",
