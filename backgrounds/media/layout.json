@@ -8,6 +8,8 @@
       "blocks": [
         {
           "tag": "Media",
+          "elementKey": "media",
+          "elementType": "media",
           "mainStyle": "w-full h-full"
         }
       ]
