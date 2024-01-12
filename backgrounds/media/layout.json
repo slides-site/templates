@@ -3,7 +3,7 @@
   "key": "media",
   "blocks": [
     {
-      "mainStyle": "w-full h-full bg-neutral",
+      "mainStyle": "w-full h-full",
       "name": "media-container",
       "blocks": [
         {
