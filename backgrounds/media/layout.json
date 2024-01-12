@@ -3,22 +3,14 @@
   "key": "media",
   "blocks": [
     {
-      "mainStyle":"absolute top-0 left-0 right-0 h-full",
-      "tag":"AnimatedBlock",
-      "name":"media-container",
-      "blocks":[
+      "mainStyle": "w-full h-full bg-neutral",
+      "name": "media-container",
+      "blocks": [
         {
-          "tag":"Media",
-          "mainStyle":"relative h-full w-full",
-          "elementKey":"media",
-          "content":{
-            "video":{
-              "className":"h-full w-full object-cover object-center",
-              "loop":true,
-              "muted":true,
-              "autoPlay":true,
-              "playsInline":true
-            }
+          "tag": "Media",
+          "mainStyle": "w-full h-full",
+          "content": {
+            "url": "https://slites-site.s3.us-west-1.amazonaws.com/building.startups/hero.jpg"
           }
         }
       ]
