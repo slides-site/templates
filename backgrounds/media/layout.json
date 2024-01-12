@@ -8,10 +8,7 @@
       "blocks": [
         {
           "tag": "Media",
-          "mainStyle": "w-full h-full",
-          "content": {
-            "url": "https://slites-site.s3.us-west-1.amazonaws.com/building.startups/hero.jpg"
-          }
+          "mainStyle": "w-full h-full"
         }
       ]
     }

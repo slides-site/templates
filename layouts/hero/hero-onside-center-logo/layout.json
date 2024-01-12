@@ -1,0 +1,52 @@
+{
+  "name": "Story OneSide",
+  "key": "BlocksLayout",
+  "containerId": "65036bd220eddf5ec686aacd",
+  "blocks": [
+    {
+      "name": "container",
+      "elementKey": "_container",
+      "mainStyle": "container large flex justify-center items-end w-full",
+      "style": "bg-secondary-900",
+      "blocks": [
+        {
+          "name": "content",
+          "mainStyle": "content w-full h-full flex flex-col",
+          "elementKey": "_content",
+          "style": "justify-start md:justify-end relative text-white py-[5rem] gap-6",
+          "blocks": [
+            {
+              "tag":"h2",
+              "mainStyle":"safe-area-x z-10 text-4xl d-text-6xl",
+              "style": "text-4xl d-text-6xl",
+              "animation":"fadeUp",
+              "elementKey": "title"
+            },
+            {
+              "mainStyle":"md:absolute relative top-0 left-0 right-0 flex-1 md:h-[70%]",
+              "animation":"fadeIn",
+              "blocks":[
+                {
+                  "tag":"Media",
+                  "elementKey": "media",
+                  "mainStyle":"absolute h-full w-full",
+                  "style": "inner-bottom-shadow-strong-secondary-900"
+                }
+              ]
+            },
+            {
+              "mainStyle":"safe-area-x z-10",
+              "animation":"fadeUp",
+              "blocks":[
+                {
+                  "tag":"ExpandableText",
+                  "elementKey": "content"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
