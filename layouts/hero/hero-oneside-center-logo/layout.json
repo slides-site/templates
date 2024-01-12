@@ -1,0 +1,47 @@
+{
+  "name": "Hero One Side Bottom Center with Logo",
+  "key": "BlocksLayout",
+  "containerId": "65036bd220eddf5ec686aacd",
+  "blocks": [
+    {
+      "name": "container",
+      "blocks": [
+        {
+          "name": "content",
+          "mainStyle": "content w-full flex flex-col justify-end items-center relative safe-area-x md:max-w-[50%] gap-8",
+          "blocks": [
+            {
+              "mainStyle": "flex flex-col justify-end items-center gap-4",
+              "blocks": [
+                {
+                  "tag": "Media",
+                  "style": "max-w-full",
+                  "elementKey": "logo",
+                  "elementType": "media",
+                  "content": {
+                    "image": {
+                      "className": "max-w-full object-cover object-center"
+                    }
+                  }
+                },
+                {
+                  "tag": "h1",
+                  "elementKey": "title",
+                  "style": "text-3xl font-bold text-white d-text-4xl text-center pb-2",
+                  "elementType": "text"
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "mainStyle": "button full d-xl",
+              "style": "bg-primary text-black text-base",
+              "elementKey": "button",
+              "elementType": "button"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
