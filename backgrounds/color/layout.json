@@ -1,0 +1,12 @@
+{
+  "name": "Color",
+  "key": "color",
+  "blocks": [
+    {
+      "mainStyle": "w-full h-full",
+      "name": "color",
+      "elementKey": "color",
+      "blocks": []
+    }
+  ]
+}
