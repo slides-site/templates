@@ -152,7 +152,7 @@
 }
 
 .slide-gallery.antartica-gallery .item .image {
-    aspect-ratio: 16/9;
+    /*aspect-ratio: 16/9;*/
     height: 100%;
 }
 
@@ -207,7 +207,7 @@
         width: 35ch;
         justify-content: end;
         z-index: 10;
-        aspect-ratio: 16/9;
+        /*aspect-ratio: 16/9;*/
         padding: 1.5rem;
     }
 
