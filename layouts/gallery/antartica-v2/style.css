@@ -105,6 +105,8 @@
     overflow: hidden;
     cursor: pointer;
     transition: 0.15s all ease;
+    min-width: 8rem;
+    max-width: 8rem;
 }
 
 /*.slide-gallery.antartica-gallery .item:hover {*/
@@ -143,7 +145,7 @@
 .slide-gallery.antartica-gallery .item img {
     width: 100%;
     height: 100%;
-    object-fit: fill; /* Do not scale the image */
+    object-fit: cover; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
 }
 
@@ -194,6 +196,8 @@
         padding: 0;
         flex-shrink: 0;
         position: relative;
+        min-width: unset;
+        max-width: unset;
     }
 
     .slide-gallery.antartica-gallery .item.active {
@@ -230,7 +234,7 @@
         inset: 0;
         overflow: hidden;
         align-self: center;
-        height: unset;
+        height: 100%;
         position: absolute;
     }
 
